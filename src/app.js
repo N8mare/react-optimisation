@@ -17,5 +17,5 @@ const App = () => (
   </div>
 );
 
-const rootApp = document.querySelector('#root');
-ReactDOM.render(App, rootApp);
+const rootApp = document.getElementById('root');
+ReactDOM.render(React.createElement(App), rootApp);
